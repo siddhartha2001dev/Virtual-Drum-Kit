@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Drum Pad</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+
+  <h1>DRUM PAD</h1>
+
+  <div class="controls">
+    <label>Volume</label>
+    <input type="range" id="volume" min="0" max="1" step="0.01" value="0.7">
+  </div>
+
+  <div class="pad-area">
+    <button class="drum w"></button>
+    <button class="drum a"></button>
+    <button class="drum s"></button>
+
+    <button class="drum d"></button>
+    <button class="drum j"></button>
+    <button class="drum k"></button>
+
+    <button class="drum l kick"></button>
+  </div>
+
+  <footer>Made by Siddhartha</footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
